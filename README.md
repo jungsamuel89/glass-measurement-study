@@ -55,6 +55,14 @@ Physical measurements and timings are recorded iPhone outputs; the separately
 validation-selected original-model CPU thresholds support segmentation
 interpretation and are not verified iPhone operating points.
 
+Aggregated [archived first-frame counts](data/derived/native_first_frame_interpretation.json)
+retain 416 of 417 available reviewed target observations in the primary cohort;
+15 of 432 target/model opportunities have no selected archived observation.[^scores]
+
+[^scores]: First-frame archived candidates only. RF archives omit candidates below
+    their original floors, so lower thresholds cannot recover unseen candidates;
+    other candidates are not necessarily false positives.
+
 ## Data and interpretation
 
 Availability includes all attempted target/configuration pairs; errors are

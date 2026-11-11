@@ -82,6 +82,11 @@
       "sha256": "d9a4c2c35ca2d4c7b783e5fca9082516a57b9582ee5b8e24a40dffb8816bc6d2"
     },
     {
+      "path": "data/derived/native_first_frame_interpretation.json",
+      "bytes": 13852,
+      "sha256": "c2fede3c71b9cbe8a6fa5d5c5503d77178c00586c11f6db7316f888b8aad44e6"
+    },
+    {
       "path": "data/derived/test_score_iou.json.gz",
       "bytes": 529865,
       "sha256": "caaa61a40f0938c7e5759c0b66276d40e4aefd35335efc15a97164b810b48b34"
@@ -128,8 +133,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3898,
-      "sha256": "2e4704ccba389d0f3f9d98aa82f63194a32b4ea582e00994766d7f0c1ec799a5"
+      "bytes": 4381,
+      "sha256": "0904968f12e2fca373b0f7e3f738919b553beead21871ad1cf4d1582441c93ad"
     },
     {
       "path": "requirements.lock",
