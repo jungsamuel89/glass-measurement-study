@@ -1,0 +1,87 @@
+{
+  "schema": "glass-study-file-manifest/1",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 9,
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 35,
+      "sha256": "13931bb9ecbcd95592979125cebe53ab7b7723b63cb868257711faa52dedf305"
+    },
+    {
+      "path": "analysis/reproduce_figures.py",
+      "bytes": 1939,
+      "sha256": "217dd0cc9583e561275e3f9a00334e602c4f8fc2e45773341c68ff8c006bbe8c"
+    },
+    {
+      "path": "analysis/reproduce_settings.py",
+      "bytes": 4081,
+      "sha256": "1a941df368c3edead26503f23c19d04faa3785abe28da3eb1e182a4c0607316a"
+    },
+    {
+      "path": "analysis/reproduce_statistics.py",
+      "bytes": 7001,
+      "sha256": "c655e52c3d4dd65344a2605b769260b3b34135b4f0c8f5123a895d953c1296d2"
+    },
+    {
+      "path": "analysis/verify.py",
+      "bytes": 2559,
+      "sha256": "3de18fb81edad2c9f93d1689141cca92aa90e522563e89ffeffb2657f0da2f1e"
+    },
+    {
+      "path": "config/analysis.json",
+      "bytes": 1475,
+      "sha256": "41a6699cd65282260ab002432f36bd5e3cdc3edaae2022a237daa507e9a690d4"
+    },
+    {
+      "path": "config/expected_native_summary.json",
+      "bytes": 1061,
+      "sha256": "676f524f009edaf662b87a6d66871bad6f384687dca807c19f9d0e69e6705e2b"
+    },
+    {
+      "path": "config/native_operating_points.json",
+      "bytes": 839,
+      "sha256": "b39c5456291dfb5b227aebc0868f37309756a52ea5647a46eca2ac8d362b3c6e"
+    },
+    {
+      "path": "data/derived/attempts_screened30.csv",
+      "bytes": 8364222,
+      "sha256": "d9a4c2c35ca2d4c7b783e5fca9082516a57b9582ee5b8e24a40dffb8816bc6d2"
+    },
+    {
+      "path": "data/README.md",
+      "bytes": 1001,
+      "sha256": "3ebbbfeb55797882d2af34336231baa1544417ac8d19a5c8903511afe9b09fba"
+    },
+    {
+      "path": "data/schema.json",
+      "bytes": 2040,
+      "sha256": "abd9040048bf00d4ca9f5d184ce7cd57e467865374e69f00bc13dba8cc364e7b"
+    },
+    {
+      "path": "provenance/source_identity.json",
+      "bytes": 1030,
+      "sha256": "2c1917c760696690b553bd153853dffb0fcd1df3548a5e61a84cf3e13fab0470"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3114,
+      "sha256": "d05da7f85c054009429b49af8f0f5c5dc758141f65c2f48deb5510d7d5096e28"
+    },
+    {
+      "path": "requirements.lock",
+      "bytes": 239,
+      "sha256": "1547cd39c4c9eec81797260482de665dc528d511008e79115cf8fe826a5f37db"
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 655,
+      "sha256": "e20e9166f919ef083c4874f862f805d7f69652c7875bcc950be5aac7fe6126a5"
+    }
+  ],
+  "self_manifest_excluded": true,
+  "generated_results_excluded": true
+}

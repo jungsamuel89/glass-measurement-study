@@ -1,0 +1,59 @@
+{
+  "row_unit": "one capture, intended pane reference, model, depth stream, requested frame budget and scanline setting",
+  "unique_key": [
+    "scan",
+    "reference_id",
+    "model",
+    "depth",
+    "requested_cv",
+    "raster"
+  ],
+  "units": {
+    "*_m": "metres",
+    "*_m2": "square metres",
+    "*_seconds": "seconds",
+    "requested_cv": "requested frame count K",
+    "accepted_frames": "accepted measurement frames; may be smaller than requested_cv",
+    "raster": "scanline count"
+  },
+  "identifiers": {
+    "scan": "non-identifying study capture number; retains manuscript correspondence",
+    "front_group": "pseudonym for visually assigned repeated-front grouping",
+    "reference_id": "pseudonymous intended pane ID unique within capture; never matched by similar dimensions"
+  },
+  "missing_values": "Empty CSV values represent absent numeric results; never zero errors.",
+  "numeric_measurement": "True if width and height were returned; rejected/absent rows remain in denominator",
+  "primary27": "Whether capture belongs to fixed primary cohort",
+  "timing": "Original full ten-frame per-model report times repeated across configurations; deduplicate on scan/model. Cached selected work and aggregation times are not live latency of an independently executed configuration.",
+  "columns": [
+    "scan",
+    "front_group",
+    "reference_id",
+    "model",
+    "depth",
+    "requested_cv",
+    "raster",
+    "native_cell_status",
+    "assignment_status",
+    "measurement_status",
+    "numeric_measurement",
+    "accepted_frames",
+    "width_m",
+    "height_m",
+    "rectangle_area_m2",
+    "reference_width_m",
+    "reference_height_m",
+    "reference_area_m2",
+    "width_error_m",
+    "height_error_m",
+    "area_relative_error",
+    "model_load_seconds",
+    "original_model_inference_seconds",
+    "original_model_geometry_seconds",
+    "original_model_raster_seconds",
+    "original_model_report_total_seconds",
+    "cached_selected_segmentation_work_seconds",
+    "cell_aggregation_seconds",
+    "primary27"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "scope": "Original physical-measurement results, preserved unchanged",
+  "thresholds": {
+    "rfdetr-seg-small-p025-seed42": 0.5,
+    "rfdetr-seg-small-p050-seed42": 0.5,
+    "rfdetr-seg-small-full-seed42": 0.55,
+    "rtmdet-ins-tiny-p025-seed42": 0.05,
+    "rtmdet-ins-tiny-p050-seed42": 0.05,
+    "rtmdet-ins-tiny-full-seed42": 0.05,
+    "maskrcnn-r50-p025-seed42": 0.05,
+    "maskrcnn-r50-p050-seed42": 0.05,
+    "maskrcnn-r50-full-seed42": 0.05
+  },
+  "cnn_threshold_semantics": "native candidate floor, strict score > 0.05; not validation-selected operating points",
+  "rf_full_status": "0.55 selected in an earlier validation analysis under a different criterion",
+  "other_status": "No common-rule model-specific optimization represented by these native measurements",
+  "not_calibrated_probabilities": true
+}

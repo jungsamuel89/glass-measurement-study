@@ -1,0 +1,23 @@
+{
+  "snapshot": "native physical-measurement analysis 2026-11-10",
+  "status": "working_draft",
+  "public_derivation": "Allowlisted numeric and categorical columns from fixed screened30 pool; front groups and within-capture references pseudonymised; failure rows retained",
+  "sources": [
+    {
+      "name": "paper27_fixed_comparison30.py",
+      "sha256": "1bfa9cbda28967a248c0b27d9fc70c40cf94fd50bcea37c1aa099f6c10c094e0"
+    },
+    {
+      "name": "paper27_fixed_settings.py",
+      "sha256": "9aec0e0e13cac73433e9510b24e4725d7ada0ff111127ab9a6e3dd680c50f54d"
+    },
+    {
+      "name": "paper27_fixed_comparison30_results.json",
+      "sha256": "e9b48205101f378fc0345b8d18b1edd41cace14fcfe0071fcb1253b878ca55dc"
+    }
+  ],
+  "portable_modifications": "Relative repository paths, anonymised input, results output directory, clear exploratory group wording; original statistical formulas retained",
+  "new_model_inference": false,
+  "full_geometry_replay": false,
+  "private_material_published": false
+}

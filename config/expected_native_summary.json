@@ -1,0 +1,38 @@
+{
+  "comparison30": {
+    "captures": 30,
+    "fronts": 16,
+    "target_references": 52,
+    "opportunities": 22464,
+    "numeric_results": 14341,
+    "full_budget_results": 5491,
+    "metrics": {
+      "availability_pct": 65.434670781893,
+      "full_budget_pct": 24.3724279835391,
+      "width_mae_mm": 12.989760888359934,
+      "height_mae_mm": 29.385212820925215,
+      "dimension_mae_mm": 21.187486854642568,
+      "S5_pct": 6.07253086419753,
+      "S10_pct": 17.902520576131685,
+      "S20_pct": 38.85545267489712
+    }
+  },
+  "primary27": {
+    "captures": 27,
+    "fronts": 16,
+    "target_references": 48,
+    "opportunities": 20736,
+    "numeric_results": 13717,
+    "full_budget_results": 5402,
+    "metrics": {
+      "availability_pct": 68.80858481938729,
+      "full_budget_pct": 26.634659350708738,
+      "width_mae_mm": 12.53757647661466,
+      "height_mae_mm": 25.928999455973898,
+      "dimension_mae_mm": 19.23328796629428,
+      "S5_pct": 6.652949245541838,
+      "S10_pct": 19.694501600365797,
+      "S20_pct": 42.02389117512575
+    }
+  }
+}
