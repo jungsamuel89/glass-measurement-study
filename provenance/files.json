@@ -13,8 +13,8 @@
     },
     {
       "path": "analysis/plot_confidence.py",
-      "bytes": 1636,
-      "sha256": "f8cd01466c4d5211faed56ad3f93aee859760daf47ae9b19c8ab7dd62097fcd4"
+      "bytes": 1561,
+      "sha256": "0961cabd7f66d5b019e6f39bccfc965c9a3e6b0d02a385dbb242655acf2f38ee"
     },
     {
       "path": "analysis/reproduce_confidence.py",
@@ -73,8 +73,8 @@
     },
     {
       "path": "data/confidence_schema.md",
-      "bytes": 3878,
-      "sha256": "4283870d5ba46ec0d9d37bf6db43a2921d3b15a73fa81c972c8c0ba8346d67d6"
+      "bytes": 3708,
+      "sha256": "4c51256d55c042babf4cd874a365d65d865d37e23a3a136781ada0e0051117cd"
     },
     {
       "path": "data/derived/attempts_screened30.csv",
@@ -128,8 +128,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5153,
-      "sha256": "0f2cab2416741fa724421adb7768076997881e065d296d40e1fd5473419c94d4"
+      "bytes": 3898,
+      "sha256": "2e4704ccba389d0f3f9d98aa82f63194a32b4ea582e00994766d7f0c1ec799a5"
     },
     {
       "path": "requirements.lock",

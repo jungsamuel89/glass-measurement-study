@@ -1,8 +1,6 @@
 # Original-model CPU operating-point data
 
-The confidence analysis interprets segmentation behaviour. The physical study
-continues to use the original iPhone measurements and timings unchanged. There
-are no reconstructed physical measurements or physical-replay outputs here.
+This dataset describes segmentation operating-point behaviour.
 
 `validation_score_iou.json.gz` and `test_score_iou.json.gz` contain derived arrays
 for nine original trained models. Each model has 149 validation or 147 test

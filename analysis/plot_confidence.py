@@ -24,7 +24,7 @@ for ax,metric,label in zip(axes,['macro_pq_like','exact_set_success'],['Image-me
     ax.grid(axis='x',alpha=.15);ax.set_axisbelow(True)
 axes[0].invert_yaxis()
 axes[1].legend(loc='lower right',fontsize=8)
-fig.suptitle('TEST147: original-model CPU segmentation interpretation\nPost-hoc protocol revision; original iPhone measurements remain unchanged',fontsize=11)
+fig.suptitle('TEST147: original-model CPU segmentation interpretation',fontsize=11)
 fig.savefig(OUT/'test_operating_points.png',dpi=180)
 fig.savefig(OUT/'test_operating_points.svg')
 plt.close(fig)
