@@ -1,0 +1,12 @@
+{
+  "snapshot": "validation-selected original-model CPU operating points 2026-11-11",
+  "private_original_protocol_sha256": "8d4c2814a71c8f1c96fb810d9d5a82b11bdd2840ded48910f141e6b5ec7944a1",
+  "private_original_thresholds_sha256": "cb5ed3ba7bf3428cf522640e14edb96e4450c1cdf6b71ab3d10bec38582dd7cf",
+  "private_source_code_sha256": "1dfecf059a86730f965689eabaa503d62d66262cdfde252d10b3eed8200d3035",
+  "private_final_qa_sha256": "c4eb92963d7d6bd312cb718e9c474448347be868181d791c458ea547d476de80",
+  "independent_review_sha256": "19cb93ddc417774f13fe8ed4d21c04f36e837c8892a6c198d70356d6513e6413",
+  "public_transformation": "Image and proxy-group IDs replaced; private image paths and instance identifiers removed; per-candidate scores, GT counts and pairwise IoUs retained.",
+  "reproduction_boundary": "Matching, all validation threshold metrics and selection, fixed-threshold test metrics reproduced from derived arrays; masks, IoU-matrix calculation, raw inference and physical measurement replay are not reproduced.",
+  "mask_union_iou": "Reported scalar union-IoU per selected/baseline threshold preserved from masks; not derivable from pairwise instance IoUs.",
+  "source_protocol_and_sanitized_public_protocol_have_different_bytes": true
+}

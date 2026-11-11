@@ -1,0 +1,64 @@
+{
+  "schema": "glass-study-validation-operating-points/1",
+  "frozen_utc": "2026-11-11T09:46:54.841277+00:00",
+  "private_original_thresholds_sha256": "cb5ed3ba7bf3428cf522640e14edb96e4450c1cdf6b71ab3d10bec38582dd7cf",
+  "private_original_protocol_sha256": "8d4c2814a71c8f1c96fb810d9d5a82b11bdd2840ded48910f141e6b5ec7944a1",
+  "coreml_score_transfer": "unproven",
+  "physical_replay_performed": false,
+  "models": [
+    {
+      "model_id": "maskrcnn-r50-full-seed42",
+      "confidence": 0.94,
+      "checkpoint_sha256": "fe08711481d62986f154f952f20778519f3e3314b5e2aa4bb1ccf0e8dec031a1",
+      "validation_macro_pq_like": 0.8654441964625996
+    },
+    {
+      "model_id": "maskrcnn-r50-p025-seed42",
+      "confidence": 0.95,
+      "checkpoint_sha256": "f4beefdfe8e39f8e1208618215f1b72946506d745dfa3a84f566d316719e7238",
+      "validation_macro_pq_like": 0.814243252122757
+    },
+    {
+      "model_id": "maskrcnn-r50-p050-seed42",
+      "confidence": 0.92,
+      "checkpoint_sha256": "7fa3f05dc900c24bfcfe516a8001ebad16f89291e4dbb955716021b362dfc0ef",
+      "validation_macro_pq_like": 0.8512946212761582
+    },
+    {
+      "model_id": "rfdetr-seg-small-full-seed42",
+      "confidence": 0.45,
+      "checkpoint_sha256": "d4523586a7eb0c34c81f231d0948d7a8c1b159887a3c88d7d8970b8a618082c3",
+      "validation_macro_pq_like": 0.8892635895269698
+    },
+    {
+      "model_id": "rfdetr-seg-small-p025-seed42",
+      "confidence": 0.43,
+      "checkpoint_sha256": "feadbe1926467e35bc58b48e017f6925c3adc74b5109b45bf0cc1532c26fbeda",
+      "validation_macro_pq_like": 0.8609877571427317
+    },
+    {
+      "model_id": "rfdetr-seg-small-p050-seed42",
+      "confidence": 0.34,
+      "checkpoint_sha256": "eb20fc1a981c169ea91adb9877bd9e12f97cbf8ebf314a50d73961925620893b",
+      "validation_macro_pq_like": 0.8891508476229242
+    },
+    {
+      "model_id": "rtmdet-ins-tiny-full-seed42",
+      "confidence": 0.5,
+      "checkpoint_sha256": "190a76a400afc296ae749c058fe09bdb47383a607e828912eea91effef2f705d",
+      "validation_macro_pq_like": 0.8495629557180561
+    },
+    {
+      "model_id": "rtmdet-ins-tiny-p025-seed42",
+      "confidence": 0.6,
+      "checkpoint_sha256": "2f35ac80230e36c4b665bf3a3a1b2951ed7ae136f4fbacc062668603d27533df",
+      "validation_macro_pq_like": 0.7943995761739584
+    },
+    {
+      "model_id": "rtmdet-ins-tiny-p050-seed42",
+      "confidence": 0.69,
+      "checkpoint_sha256": "2180b0c2e33e92b3bbe19ec799511946a7327ed892591efdd1ea2d334159b150",
+      "validation_macro_pq_like": 0.8335397982565576
+    }
+  ]
+}
